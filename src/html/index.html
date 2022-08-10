@@ -11,12 +11,54 @@
 <body>
   //= ./template/header.html
   <main class="page-main">
+     //= ./template/main-nav.html
+     <div class="page-main__wrapper">
+      <div class="ticket-selection">
+        <div class="ticket-selection__datepicker"></div>
+        <div class="ticket-selection__time"></div>
+        <div class="ticket-selection__place"></div>
+      </div>
+     </div>
+    <div class="pade-main__sidebar">
+      <div class="pade-main__preview-ticket">
+        <div class="ticket">
+          <header class="ticket__header">
+            <h2 class="ticket__title">Билеты</h2>
+            <span class="ticket__amount">× 2</span>
+          </header>
+          <div class="ticket__main">
+            <dl class="ticket__list">
+              <dt class="ticket__term">Фильм:</dt>
+              <dd class="ticket__description">Кекс наносит ответный удар</dd>
 
+              <dt class="ticket__term">Дата:</dt>
+              <dd class="ticket__description">23 сентября</dd>
+
+              <dt class="ticket__term">Время:</dt>
+              <dd class="ticket__description">20:00</dd>
+
+              <dt class="ticket__term">Ряд:</dt>
+              <dd class="ticket__description">2</dd>
+
+              <dt class="ticket__term">Места:</dt>
+              <dd class="ticket__description">4,5</dd>
+            </dl>
+          </div>
+          <footer class="ticket__footer">
+            <img class="ticket__barcode" src="" alt="">
+          </footer>
+        </div>
+      </div>
+      <div class="pade-main__pay">
+        <div class="pay">
+          <h2 class="pay__title"></h2>
+          <div class="pay__card"></div>
+          <div class="pay__add-card"></div>
+          <a href="" class="pay__link">Оплатить <span class="pay__price">800</span> ₽</a>
+        </div>
+      </div>
+    </div>
   </main>
-
-  <footer class="page-footer">
-
-  </footer>
 </body>
 </html>
 </html>
