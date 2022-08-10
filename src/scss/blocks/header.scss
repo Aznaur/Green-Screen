@@ -1,1 +1,9 @@
-
+.page-header {
+  align-items: center;
+  background-color: #ECF2FF;
+  box-sizing: border-box;
+  column-gap: 102px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  padding: 16px 60px;
+}
