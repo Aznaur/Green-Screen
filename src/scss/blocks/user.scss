@@ -1,0 +1,26 @@
+.user {
+  display: block;
+  &__name {
+    color: #ffffff;
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 12px 0 12px 52px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    &::before {
+      content: "";
+      background-image: url('../../img/icon-user.svg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: contain;
+      height: 40px;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 40px;
+    }
+  }
+}
