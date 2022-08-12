@@ -52,9 +52,75 @@
      </nav>
      <div class="page-main__wrapper">
       <div class="ticket-selection">
-        <div class="ticket-selection__datepicker"></div>
-        <div class="ticket-selection__time"></div>
-        <div class="ticket-selection__place"></div>
+        <div class="ticket-selection__datepicker slider-datepicker">
+          <button class="slider-datepicker__controler">
+            <span class="visually-hidden">Кнопка влево для пролистывания даты</span>
+          </button>
+          <ul class="slider-datepicker__list">
+            <li class="slider-datepicker__item">
+              <p class="slider-datepicker__date">22 сентября</p>
+              <span class="slider-datepicker__day-week">четверг</span>
+            </li>
+            <li class="slider-datepicker__item">
+              <p class="slider-datepicker__date">23 сентября</p>
+              <span class="slider-datepicker__day-week">пятница</span>
+            </li>
+            <li class="slider-datepicker__item">
+              <p class="slider-datepicker__date">24 сентября</p>
+              <span class="slider-datepicker__day-week">суббота</span>
+            </li>
+          </ul>
+          <button class="slider-datepicker__controler">
+            <span class="visually-hidden">Кнопка вправо для пролистывания даты</span>
+          </button>
+        </div>
+        <div class="ticket-selection__time session-time">
+          <div class="session-time__row">
+            <p class="session-time__title">2D:</p>
+            <p class="session-time__period">12:00 - 13:30</p>
+            <p class="session-time__period">16:30 - 18:00</p>
+            <p class="session-time__period">20:00 - 21:30</p>
+          </div>
+          <div class="session-time__row">
+            <p class="session-time__title">3D:</p>
+            <p class="session-time__period">10:00 - 11:30</p>
+            <p class="session-time__period">23:00 - 00:30</p>
+          </div>
+        </div>
+        <div class="ticket-selection__place place">
+          <img class="place__img" src="" alt="Схематическое местоположение эрана кинотеатра">
+          <div class="place__row">
+            <p class="place__title">
+              <div class="place__row-1">
+                <span class="place__armchair1">1</span>
+                <span class="place__armchair2">2</span>
+                <span class="place__armchair3">3</span>
+                <span class="place__armchair4">4</span>
+                <span class="place__armchair5">5</span>
+              </div>
+            </p>
+          </div>
+          <div class="place__row">
+            <p class="place__title">
+              <div class="place__row-1">
+                <span class="place__armchair1">1</span>
+                <span class="place__armchair2">2</span>
+                <span class="place__armchair3">3</span>
+                <span class="place__armchair4">4</span>
+                <span class="place__armchair5">5</span>
+                <span class="place__armchair6">6</span>
+                <span class="place__armchair7">7</span>
+                <span class="place__armchair8">8</span>
+                <span class="place__armchair9">9</span>
+              </div>
+            </p>
+          </div>
+          <div class="place__helper">
+            <p class="place__symbol place__symbol--busy">Место занято</p>
+            <p class="place__symbol place__symbol--free">Место свободно</p>
+            <p class="place__symbol place__symbol--selected">Выбранное место</p>
+          </div>
+        </div>
       </div>
      </div>
     <div class="pade-main__sidebar">

@@ -1,4 +1,8 @@
 .page-main {
   display: grid;
   grid-template-columns: 258px 1fr 360px;
+  &__wrapper {
+    box-sizing: border-box;
+    padding: 60px;
+  }
 }
