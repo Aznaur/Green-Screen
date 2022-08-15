@@ -15,7 +15,7 @@
      <div class="page-main__wrapper">
       <div class="ticket-selection">
         <div class="ticket-selection__datepicker slider-datepicker">
-          <button class="slider-datepicker__controler">
+          <button class="slider-datepicker__controler slider-datepicker__controler--left">
             <span class="visually-hidden">Кнопка влево для пролистывания даты</span>
           </button>
           <ul class="slider-datepicker__list">
@@ -23,7 +23,7 @@
               <p class="slider-datepicker__date">22 сентября</p>
               <span class="slider-datepicker__day-week">четверг</span>
             </li>
-            <li class="slider-datepicker__item">
+            <li class="slider-datepicker__item is-active">
               <p class="slider-datepicker__date">23 сентября</p>
               <span class="slider-datepicker__day-week">пятница</span>
             </li>
@@ -32,7 +32,7 @@
               <span class="slider-datepicker__day-week">суббота</span>
             </li>
           </ul>
-          <button class="slider-datepicker__controler">
+          <button class="slider-datepicker__controler slider-datepicker__controler--right">
             <span class="visually-hidden">Кнопка вправо для пролистывания даты</span>
           </button>
         </div>
@@ -50,7 +50,7 @@
           </div>
         </div>
         <div class="ticket-selection__place place">
-          <img class="place__img" src="" alt="Схематическое местоположение эрана кинотеатра">
+          <img class="place__img" src="" alt="Схематическое расположение эрана в кинотеатре">
           <div class="place__row">
             <p class="place__title">
               <div class="place__row-1">
@@ -117,8 +117,13 @@
       </div>
       <div class="pade-main__pay">
         <div class="pay">
-          <h2 class="pay__title"></h2>
-          <div class="pay__card"></div>
+          <h2 class="pay__title">Оплата</h2>
+          <div class="pay__card card">
+            <p class="card__type">SuperCard</p>
+            <p class="card__number">1234 5678 9012 3456</p>
+            <p class="card__name-owner">Opoznanniy Enot</p>
+            <p class="card__date">20/99</p>
+          </div>
           <div class="pay__add-card"></div>
           <a href="" class="pay__link">Оплатить <span class="pay__price">800</span> ₽</a>
         </div>
