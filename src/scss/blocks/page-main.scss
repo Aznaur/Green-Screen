@@ -10,4 +10,14 @@
     box-sizing: border-box;
     padding: 40px 60px;
   }
+  &__sidebar {
+    display: flex;
+    flex-direction: column;
+  }
+  &__pay {
+    background-color: #ECF2FF;
+    box-sizing: border-box;
+    flex-grow: 1;
+    padding: 40px 60px;
+  }
 }

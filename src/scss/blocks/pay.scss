@@ -1,0 +1,45 @@
+.pay {
+  &__title {
+    color: #666666;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  &__card {
+    margin-bottom: 20px;
+  }
+  &__add-card {
+    box-sizing: border-box;
+    border:  2px solid #CCDAF4;
+    border-radius: 8px;
+    background-image: url('../../img/icon-plus.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    display: block;
+    height: 60px;
+    margin-bottom: 60px;
+  }
+  &__link {
+    box-sizing: border-box;
+    background-color: #43D000;
+    border-radius: 40px;
+    color:#FFFFFF;
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    padding: 20px 10px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+  }
+  &__price {
+    display: inline-block;
+    margin-left: 20px;
+  }
+}
