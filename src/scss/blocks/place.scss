@@ -1,0 +1,111 @@
+.place {
+  &__screen {
+    margin-bottom: 40px;
+    position: relative;
+    &-text {
+      color: #CCDAF4;
+      display: block;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+      position: absolute;
+      top: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      text-transform: uppercase;
+      text-align: center;
+    }
+  }
+  &__wrapper {
+    align-items: center;
+    display: flex;
+    margin-bottom: 30px;
+    &--margin-bottom {
+      margin-bottom: 0;
+    }
+  }
+  &__title {
+    color: #666666;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    margin-right: 60px;
+    text-transform: uppercase;
+  }
+  &__row  {
+    box-sizing: border-box;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+  }
+  &__armchair {
+    align-items: center;
+    background-image: url('../../img/icon-armchair.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    color: #CCDAF4;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    margin-right: 30px;
+    width: 80px;
+    &:last-child {
+      margin-right: 0;
+    }
+    &.is-free {
+      background-image: url('../../img/icon-armchair-free.svg');
+      color: #5957DB;
+    }
+    &.is-selected {
+      background-image: url('../../img/icon-armchair-selected.svg');
+      color: #ffffff;
+    }
+  }
+  &__helper {
+    display: flex;
+    margin-top: 50px;
+  }
+  &__symbol {
+    align-items: center;
+    box-sizing: border-box;
+    color: #666666;
+    display: flex;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    margin-right: 72px;
+    padding-left: 36px;
+    position: relative;
+    &:last-child {
+      margin-right: 0;
+    }
+    &::before {
+      content: "";
+      box-sizing: border-box;
+      border: 2px solid #ECF2FF;
+      border-radius: 4px;
+      height: 24px;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 24px;
+    }
+    &--busy {
+      &::before {
+        background-color: #ECF2FF;
+      }
+    }
+    &--selected {
+      &::before {
+        border: none;
+        background-color: #43D000;
+      }
+    }
+  }
+}

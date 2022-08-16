@@ -79,7 +79,7 @@
             <p class="session-time__title">2D:</p>
             <p class="session-time__period">12:00 - 13:30</p>
             <p class="session-time__period">16:30 - 18:00</p>
-            <p class="session-time__period">20:00 - 21:30</p>
+            <p class="session-time__period is-active">20:00 - 21:30</p>
           </div>
           <div class="session-time__row">
             <p class="session-time__title">3D:</p>
@@ -88,36 +88,37 @@
           </div>
         </div>
         <div class="ticket-selection__place place">
-          <img class="place__img" src="" alt="Схематическое расположение эрана в кинотеатре">
-          <div class="place__row">
-            <p class="place__title">
-              <div class="place__row-1">
-                <span class="place__armchair1">1</span>
-                <span class="place__armchair2">2</span>
-                <span class="place__armchair3">3</span>
-                <span class="place__armchair4">4</span>
-                <span class="place__armchair5">5</span>
-              </div>
-            </p>
+          <div class="place__screen">
+            <img class="place__img" src="../img/icon-cinema-screen.svg" alt="Схематическое расположение эрана в кинотеатре">
+            <span class="place__screen-text">Экран</span>
           </div>
-          <div class="place__row">
-            <p class="place__title">
-              <div class="place__row-1">
-                <span class="place__armchair1">1</span>
-                <span class="place__armchair2">2</span>
-                <span class="place__armchair3">3</span>
-                <span class="place__armchair4">4</span>
-                <span class="place__armchair5">5</span>
-                <span class="place__armchair6">6</span>
-                <span class="place__armchair7">7</span>
-                <span class="place__armchair8">8</span>
-                <span class="place__armchair9">9</span>
-              </div>
-            </p>
+          <div class="place__wrapper">
+            <p class="place__title">Ряд 1</p>
+            <div class="place__row place__row--1">
+              <span class="place__armchair place__armchair--1">1</span>
+              <span class="place__armchair place__armchair--2">2</span>
+              <span class="place__armchair place__armchair--3 is-free">3</span>
+              <span class="place__armchair place__armchair--4">4</span>
+              <span class="place__armchair place__armchair--5">5</span>
+            </div>
+          </div>
+          <div class="place__wrapper place__wrapper--margin-bottom">
+            <p class="place__title">Ряд 2</p>
+            <div class="place__row place__row--2">
+              <span class="place__armchair place__armchair--1">1</span>
+              <span class="place__armchair place__armchair--2 is-free">2</span>
+              <span class="place__armchair place__armchair--3">3</span>
+              <span class="place__armchair place__armchair--4 is-selected">4</span>
+              <span class="place__armchair place__armchair--5 is-selected">5</span>
+              <span class="place__armchair place__armchair--6 is-free">6</span>
+              <span class="place__armchair place__armchair--7">7</span>
+              <span class="place__armchair place__armchair--8 is-free">8</span>
+              <span class="place__armchair place__armchair--9">9</span>
+            </div>
           </div>
           <div class="place__helper">
-            <p class="place__symbol place__symbol--busy">Место занято</p>
             <p class="place__symbol place__symbol--free">Место свободно</p>
+            <p class="place__symbol place__symbol--busy">Место занято</p>
             <p class="place__symbol place__symbol--selected">Выбранное место</p>
           </div>
         </div>
